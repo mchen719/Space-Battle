@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10pt;
+}
+
+body {
+    background-color: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: end;
+    padding: 1rem;
+
+}
+
+.game__screen {
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.enemy {
+    display: flex;
+    justify-content: right;
+}
+
+.player {
+    display: flex;
+    justify-content: left;
+}
+
+#enemy-img {
+border: solid 1px black;
+}
+
+#player-img {
+border: solid 1px black;
+}
